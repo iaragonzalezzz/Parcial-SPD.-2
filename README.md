@@ -8,6 +8,7 @@ Kevarkian Candela.
 Se va a sustituir uno de los botones por un interruptor (switch) de dos posiciones.
 Dependiendo de la posición del interruptor, el display va a mostrar el contador de los números comunes o los números primos en el rango de 0 a 99.
 # Función principal:
+esta función se encarga de (dependiendo de que lado este el interruptor del switch) aumente o disminuye el valor de los números comunes o de los números primos.
 
 # 🫡 Link del proyecto:
 https://www.tinkercad.com/things/d7kpLeFhFGI
