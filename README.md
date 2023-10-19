@@ -113,3 +113,6 @@ void loop()
 # 🫡 Link del proyecto:
 https://www.tinkercad.com/things/d7kpLeFhFGI
 
+#Imagen con el motor
+![Captura de Pantalla 2023-10-19 a la(s) 11 39 15](https://github.com/iaragonzalezzz/Parcial-SPD.-2/assets/123982656/439e2d3c-f4e4-4c08-a054-f59abf77a987)
+
