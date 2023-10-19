@@ -12,21 +12,21 @@ esta función se encarga de (dependiendo de que lado este el interruptor del swi
 
 void loop()
  { 
-  //Declaramos las variables que vamos a usar
+  /* Declaramos las variables que vamos a usar */
   int estado_switch = digitalRead(SWITCH) ;
   int apretado = boton_apretado();
   int sensor_fuerza = analogRead(FUERZA);
   
   
-  //Si la fuerza que detecta el sensor es mayor a 4N
-  aproximadamente el contador vuelve a 0*/
+  /* Si la fuerza que detecta el sensor es mayor a 4N
+  aproximadamente el contador vuelve a 0 */
   if(sensor_fuerza > 80){
     contador = 0;
     }
 
- //Evalua si el switch esta del lado derecho, y se ejecuta el 
+ /* Evalua si el switch esta del lado derecho, y se ejecuta el 
   contador, disminuyendo o aumentando el numero, 
-  dependiendo del pulsador seleccionado 
+  dependiendo del pulsador seleccionado */
   
   if(estado_switch == 0){
     
@@ -45,9 +45,9 @@ void loop()
     }
     
    }
-   // Si el switch esta del lado izquierdo, va a mostrar solo los
+   /* Si el switch esta del lado izquierdo, va a mostrar solo los
    numeros primos, en orden creiente o decreciente 
-   segun el pulsador seleccionado 
+   segun el pulsador seleccionado */
    
   else {
     int divisores_totales = 0;
